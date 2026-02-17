@@ -1,0 +1,38 @@
+name: security
+title: Security
+version: '2026'
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/nav.adoc
+
+asciidoc:
+  attributes:
+    doc-id: ARCHITECTUS-SECURITY
+    revdate: '2026-02-17'
+    author: Architectus
+    icons: font
+    source-highlighter: highlight.js
+    experimental: ''
+    page-pagination: true
+
+    # IAM
+    proto-saml: SAML 2.0
+    proto-oidc: OpenID Connect
+    proto-oauth: OAuth 2.0
+    proto-kerberos: Kerberos
+
+    # PKI
+    cert-x509: X.509
+    cert-ca: Certificate Authority
+    cert-ra: Registration Authority
+
+    # Standards
+    std-cis: CIS Benchmarks
+    std-stig: STIG
+    std-nist: NIST
+    std-iso27001: ISO 27001
+
+    # Tools
+    tool-vault: HashiCorp Vault
+    tool-keycloak: Keycloak
+    tool-pass: pass/gopass
