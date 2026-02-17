@@ -11,22 +11,22 @@ Identity, access, cryptography, and defense in depth.
 |===
 |Domain |Coverage
 
-|**xref:iam/index.adoc[Identity & Access Management]**
+|**Identity & Access Management**
 |SAML, OIDC, OAuth, Kerberos, Keycloak, Azure AD
 
-|**xref:pki/index.adoc[PKI & Certificates]**
+|**PKI & Certificates**
 |X.509, CA architecture, Vault PKI, ACME
 
-|**xref:secrets/index.adoc[Secrets Management]**
+|**Secrets Management**
 |HashiCorp Vault, pass, SOPS, age
 
-|**xref:hardening/index.adoc[Hardening & Compliance]**
+|**Hardening & Compliance**
 |CIS Benchmarks, STIG, compliance scanning
 
-|**xref:detection/index.adoc[Threat Detection]**
+|**Threat Detection**
 |SIEM, log analysis, threat hunting
 
-|**xref:crypto/index.adoc[Cryptography]**
+|**Cryptography**
 |Symmetric, asymmetric, hashing, GPG
 |===
 
@@ -74,6 +74,6 @@ Identity, access, cryptography, and defense in depth.
 
 == Related
 
-* xref:linux::hardening/index.adoc[Linux Hardening]
-* xref:windows::security/index.adoc[Windows Security]
-* xref:networking::nac/index.adoc[Network Access Control]
+* xref:linux::index.adoc[Linux] — System hardening
+* xref:windows::index.adoc[Windows] — Windows security
+* xref:networking::index.adoc[Networking] — Network access control
